@@ -22,7 +22,8 @@ tokens = nltk.word_tokenize(raw)
 # print(text)
 
 tagged = nltk.pos_tag(tokens)
-# print(tagged)
+
+# print(tagged) # PRINT
 
 for i in range(0, len(tagged)):
     label = str(tagged[i][1])
